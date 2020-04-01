@@ -1,0 +1,3 @@
+# REDIRECT NON-WWW TO WWW 
+RewriteCond %{HTTP_HOST} ^https://dacostahenrique\.github\.io/p4_la_chouette_agence/ 
+RewriteRule (.*) http://www.https://dacostahenrique.github.io/p4_la_chouette_agence//$1 [R=301,L] 
