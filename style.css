@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px !important;
 }
 
 .icon-lg {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -1040,3 +1040,50 @@ h4 {
         text-align: center;
     }
 }
+
+/* CORRECTIONS APPORTEES AU SITE 
+   ------------------------------*/
+
+/* Lien partenaires sur page acuueil */
+
+.btn-partenaires {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #F3976C;
+    background-image: url(img/lines-h2-bg.png);  
+}
+
+/*Responsive des textes-images - breakpoint 700 px*/
+
+@media (max-width: 700px){
+   .text-center img{
+    width: 100%;
+   }
+}
+
+/* Responsive affichage "Prêt pour redonner vie à votre projet ?" en bas de la page accueil */
+
+@media (min-width: 320px) and (max-width: 570px) {
+    #bloc-5-cta {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+/* Responsive affichage "Parlons web design !" en haut de la page contact */
+
+@media (min-width: 320px) and (max-width: 438px) {
+    #bloc-6 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 439px) and (max-width: 470px) {
+    #bloc-6 {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+

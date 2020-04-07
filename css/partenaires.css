@@ -1,0 +1,37 @@
+/*Page partenaires*/
+
+.partenaires{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-chouette {
+    height: 15vh;
+}
+
+#partenaires{
+    display: flex;
+    height: 70vh;
+    background-image: url(img/dots-bg.png);
+    background-color: #F3976C;
+    color:#ffffff;
+    font-size: 1.8rem;
+    padding-top: 5%;
+    padding-left: 5%:
+}
+
+/* Responsive */
+
+@media (min-width: 320px) and (max-width: 700px) {
+    #partenaires{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    font-size:0.9em;
+    padding-left: 15%;}
+    .logo-chouette{
+        height: 10vh;
+        width: 80%;}
+
+}
