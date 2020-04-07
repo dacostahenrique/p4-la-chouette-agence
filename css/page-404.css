@@ -11,7 +11,7 @@
     align-items: center;
     height: 90vh;
     text-align: center;
-    background-image: url(img/dots-bg.png);
+    background-image: url("img/dots-bg.png");
     background-color: #F3976C;
     color:#ffffff;
 }
