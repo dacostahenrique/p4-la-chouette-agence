@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 12px; /*11px*/
+    font-size: 14px/*11px*/
 }
 
 .tight-width-whitespace {
@@ -737,7 +737,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #f7f7f7!important;/*#ffffff!important;*/
 }
 
 .portfolio-thumb {
@@ -754,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #583C1D; /*rgba(165, 147, 99, 0.7);*/
+    background-color: rgba(86,70,26,.6); /*rgba(165, 147, 99, 0.7);*//*#583C1D;*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,16 +772,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #583C1D;/*#F3976C;*/
+    background-color: #F3976C;/*#583C1D;*/
 }
 
 .tc-white {
-    color:  #F3976C!important;
+    color: #efefaf!important; /*#F3976C!important;*/
 }
 
 .btn-atomic-tangerine {
-    background: #C14F1C; /*#F3976C;*/
-    color: #FFFFFF!important;
+    background: #F3976C; /*#C14F1C;*/
+    color: #343434!important;/*#000000!important;*/
 }
 
 .btn-atomic-tangerine:hover {
@@ -1085,6 +1085,61 @@ h4 {
     #bloc-6 {
         padding-left: 20%;
         padding-right: 20%;
+    }
+}
+
+/* Soulignement Accueil et Contact quand la page est active*/
+
+.nav a:focus{
+    text-decoration: underline;
+}
+
+#page1 #lien_accueil, #page2 #lien_contact, #page3 #lien_partenaires{
+    text-decoration: underline;
+}
+
+/* Changement couleur "La chouette agence - Agence web basée à Lyon" bas page1 - White vs black */
+
+.black{
+    color: #343434!important;/*#323232!important;*//*#000000!important;*/
+}
+
+/* Changement background "Parlons web" page contact */
+
+.bgc-parlons-web{
+    background-color: #793D0C;
+}
+
+/*Format texte suite conversion des 3 images centrales en texte*/
+
+.text-img1, .text-img3{
+    font-size: 22px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.text-img2{
+    font-size: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nom_auteur{
+    font-size: 13px;
+}
+
+@media (max-width: 730px){
+    .text-img1, .text-img3, .text-img2{
+        margin-left: 5%;
+        margin-right: 5%;
+}
+}
+
+/* REsponsive carte agence*/
+
+@media (max-width: 767px){
+    .carte_agence{
+        margin-left: 2%;
     }
 }
 

@@ -13,11 +13,25 @@
 #partenaires{
     display: flex;
     height: 70vh;
-    background-color: #F3976C;
-    color: #ffffff;
+    /*background-color: #F3976C;*/
+    color: #000000;
     font-size: 1.8rem;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 5%:
+    padding-bottom:3%;
+}
+
+li{
+    font-size: 1.6rem;
+}
+
+.titre-bandeau{
+    font-size: 25px;
+}
+
+.bandeau-entete{
+     background-color: #F3976C;
+     padding: 3%;
 }
 
 /* Responsive */
