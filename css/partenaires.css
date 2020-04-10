@@ -46,5 +46,8 @@ li{
     .logo-chouette{
         height: 10vh;
         width: 80%;}
+    li{
+        font-size: 0.8em;
+    }
 
 }
