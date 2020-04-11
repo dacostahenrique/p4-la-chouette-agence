@@ -1045,14 +1045,45 @@ h4 {
 /* CORRECTIONS APPORTEES AU SITE 
    ------------------------------*/
 
-/* Lien partenaires sur page acuueil */
+/* Lien partenaires et mentions légales avec effet de soulignement */
 
-.btn-partenaires {
+/*.btn-partenaires*/.partenaires-legales {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     color: #F3976C;
     background-image: url(img/lines-h2-bg.png);  
+}
+
+.btn-partenaires{
+    padding-left: 3%;
+}
+
+.btn-partenaires:hover{
+    text-decoration: underline;
+}
+
+.btn-legales{
+    padding-right: 3%;
+}
+
+.btn-legales:hover{
+   text-decoration: underline;
+}
+
+.mention_legale{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.trait-séparation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #F3976C;
 }
 
 /*Responsive des textes-images - breakpoint 700 px*/
