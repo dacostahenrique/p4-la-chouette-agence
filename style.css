@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/*.d-bloc a .icon-md,*/
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -1174,3 +1174,8 @@ h4 {
     }
 }
 
+/* Changement couleur icônes réseaux sociaux - Voir ligne 126 */
+
+.icon-md{
+    color: #59361D;
+}
