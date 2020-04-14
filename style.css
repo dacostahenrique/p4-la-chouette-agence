@@ -1174,6 +1174,17 @@ h4 {
     }
 }
 
+/*REsponsive Logo La chouette */
+
+@media (min-width: 320px) and (max-width: 330px) {
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+}
+
 /* Changement couleur icônes réseaux sociaux - Voir ligne 126 */
 
 .icon-md{
